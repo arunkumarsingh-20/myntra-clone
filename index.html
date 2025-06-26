@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-..." , crossorigin="anonymous">
+
+    <link rel="icon" type="image/x-icon" href="https://cdn.myntassets.com/images/favicon-myntra.ico">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="images/Myntra-icon-logo.svg" alt="Myntra Logo"></a>
+            </div>
+            <ul class="nav-links">
+
+                <li class="nav-item men-item">
+                    <a class="main" href="#">MEN</a>
+                </li>
+                <li class="nav-item women-item">
+                    <a class="main" href="#">WOMEN</a>
+                </li>
+                <li class="nav-item kid-item">
+                    <a class="main" href="#">KIDS</a>
+                </li>
+                <li class="nav-item home-item">
+                    <a class="main" href="#">HOME</a>
+                </li>
+                <li class="nav-item beauty-item">
+                    <a class="main" href="#">BEAUTY</a>
+                </li>
+                <li class="nav-item genz-item">
+                    <a class="main" href="#">GENZ</a>
+                </li>
+                <li class="nav-item genz-item">
+                    <a class="main" href="#">STUDIO</a>
+                </li>
+                <div class="dropdown" id="megaMenu">
+                    <!-- Ye andar JS se change hoga -->
+                </div>
+            </ul>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search for products, brands and more"
+                    oninput="showSuggestions()">
+                <ul id="suggestions-list"></ul>
+            </div>
+
+            <div class="icons">
+                <div class="icon" id="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Profile</span>
+                </div>
+                <div class="icon" id="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>Wishlist</span>
+                </div>
+                <div class="icon" id="bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Bag</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Suggestion Box OUTSIDE nav -->
+    <div id="suggestions"></div>
+
+    <!-- Sales Timer -->
+    <div class="sale-timer">
+        <span>Sale Ends in</span>
+        <span class="time"><span id="days">00</span> Day :</span>
+        <span class="time"><span id="hours">00</span> H :</span>
+        <span class="time"><span id="minutes">00</span> M :</span>
+        <span class="time"><span id="seconds">00</span> S</span>
+    </div>
+
+
+    <!-- Offer Banner Section -->
+    <div class="offer-banner">
+        <img src="images/offer-banner.png" alt="Flat ₹500 Off Offer">
+    </div>
+
+    <div class="custom-banner">
+        <div class="main-image">
+            <a href="https://www.myntra.com/end-of-reason-sale?gad_campaignid=22091988449"><img
+                    src="images/reason-sale.webp" alt="Main Banner"></a>
+        </div>
+        <div class="giphy-image">
+            <a href="https://www.myntra.com/end-of-reason-sale?gad_campaignid=22091988449"><img
+                    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ZtaHc0OWZydjAyajh1ajBhYXd1bGsxM3EwMTB5NDR0bXplNXk3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/NvLcnPaU0O0ebTYSl3/giphy.gif"
+                    alt="Giphy Animation"></a>
+        </div>
+    </div>
+    <!-- COUPONS CENTRAL -->
+
+    <div class="coupon-section">
+        <h2>COUPONS CENTRAL</h2>
+        <div class="coupon-container">
+            <div class="coupon-card">
+                <img src="images/coupon1.png" alt="Coupon 1">
+            </div>
+            <div class="coupon-card">
+                <img src="images/coupon2.png" alt="Coupon 2">
+            </div>
+        </div>
+        <div class="deals-banner">
+            <a
+                href="https://www.myntra.com/myntra?f=Quick%20Filters%3APrice%20Crash&rf=Discount%20Range%3A60.0_100.0_60.0%20TO%20100.0"><img
+                    src="images/omg-deals.png" alt="OMG Deals"></a>
+        </div>
+    </div>
+
+
+    <!-- Product Slider -->
+    <div class="product-multi-slider-container">
+        <div class="product-multi-slider">
+            <div class="product-multi-slide">
+                <img src="images/product1.png" alt="Product 1">
+                <img src="images/product3.png" alt="Product 3">
+                <img src="images/product4.png" alt="Product 4">
+                <img src="images/product5.png" alt="Product 4">
+                <img src="images/product6.png" alt="Product 4">
+                <img src="images/product2.png" alt="Product 2">
+            </div>
+            <div class="product-multi-slide">
+                <img src="images/product7.png" alt="Product 5">
+                <img src="images/product8.png" alt="Product 6">
+                <img src="images/product9.png" alt="Product 7">
+                <img src="images/product10.png" alt="Product 8">
+                <img src="images/product11.png" alt="Product 8">
+                <img src="images/product12.png" alt="Product 8">
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+        <div class="product-multi-dots">
+            <span class="product-multi-dot active" onclick="productMultiCurrentSlide(0)"></span>
+            <span class="product-multi-dot" onclick="productMultiCurrentSlide(1)"></span>
+            <!-- Add dots according to number of slides -->
+        </div>
+    </div>
+
+    <!-- Shop by Category -->
+    <section class="shop-by-category">
+        <h2>SHOP BY CATEGORY</h2>
+        <div class="category-grid">
+
+            <a href="https://www.myntra.com/kids?plaEnabled=false&rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/kidswear.png" alt="KIDS">
+                    <p class="title">Kids Wear</p>
+                    <p class="offer">50-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/sport-apparel-?rawQuery=sport%20apparel%20">
+                <div class="category-card">
+                    <img src="images/sportswear.png" alt="Sportswear">
+                    <p class="title">Sportswear</p>
+                    <p class="offer">30-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/men-casual-wear?plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/casualwear.png" alt="Casual Wear">
+                    <p class="title">Casual Wear</p>
+                    <p class="offer">50-70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/fusion-wear?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0&sort=popularity">
+                <div class="category-card">
+                    <img src="images/ethnicwear.png" alt="Ethnic Wear">
+                    <p class="title">Ethnic Wear</p>
+                    <p class="offer">50-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/loungewear?f=Gender%3Amen%20women%2Cwomen&plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/sleepwear.png" alt="Sleepwear">
+                    <p class="title">Sleepwear</p>
+                    <p class="offer">30-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+            <a
+                href="https://www.myntra.com/work-wear-men?extra_search_param=isautosuggestentry%3atrue%3a%3aid%3a2297-work-wear-men&rawQuery=Work%20Wear%20Men">
+                <div class="category-card">
+                    <img src="images/workwear.png" alt="Workwear">
+                    <p class="title">Workwear</p>
+                    <p class="offer">40-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/westernwear.png" alt="Western Wear">
+                    <p class="title">Western Wear</p>
+                    <p class="offer">40-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/sports-wear?f=Gender%3Amen%2Cmen%20women&rawQuery=sports%20wear&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/mensactivewear.png" alt="Mens Activewear">
+                    <p class="title">Men's Activewear</p>
+                    <p class="offer">30-70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/wsa-all-new?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/womens-activewear.png" alt="Women's Activewear">
+                    <p class="title">Women's Activewear</p>
+                    <p class="offer">30-70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/men-innerwear?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/innerwear.png" alt="Innerwear">
+                    <p class="title">Innerwear</p>
+                    <p class="offer">UP TO 70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/lingerie?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/lingerie.png" alt="Lingerie">
+                    <p class="title">Lingerie</p>
+                    <p class="offer">UP TO 70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/beauty-page-appliances?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/grooming.png" alt="Grooming">
+                    <p class="title">Grooming</p>
+                    <p class="offer">UP TO 60% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/grooming?f=Brand%3ABeardhood%2CBombay%20Shaving%20Company%2CFoolzy%2CTHE%20MAN%20COMPANY%2CUstraa&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/beauty-makeup.png" alt="Beauty & Makeup">
+                    <p class="title">Beauty & Makeup</p>
+                    <p class="offer">UP TO 60% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/handbags-and-bags?f=Categories%3AClutches%2CHandbags%2CWallets%3A%3AGender%3Amen%20women%2Cwomen&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/handbags.png" alt="Handbags">
+                    <p class="title">Handbags</p>
+                    <p class="offer">30-60% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/home-furnishing-menu?plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/home-decor.png" alt="Home Decor">
+                    <p class="title">Home Decor</p>
+                    <p class="offer">50-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/women-jewellery?rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/jewellery.png" alt="Jewellery">
+                    <p class="title">Jewellery</p>
+                    <p class="offer">UP TO 80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/footwear?f=Gender%3Amen%2Cmen%20women&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/mens-footwear.png" alt="Men's Footwear">
+                    <p class="title">Men's Footwear</p>
+                    <p class="offer">50-70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/footwear-new?f=Gender%3Amen%20women%2Cwomen&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/womens-footwear.png" alt="Women's Footwear">
+                    <p class="title">Women's Footwear</p>
+                    <p class="offer">40-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/flipflop?f=Gender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/flip-flops.png" alt="Flip-Flops">
+                    <p class="title">Flip-Flops</p>
+                    <p class="offer">30-80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/watches?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/watches.png" alt="Watches">
+                    <p class="title">Watches</p>
+                    <p class="offer">UP TO 80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/men-accessories?f=Categories%3ABelts%2CWallets&plaEnabled=false&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/bags-belts.png" alt="Belts & Wallets">
+                    <p class="title">Belts & Wallets</p>
+                    <p class="offer">40-70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a href="https://www.myntra.com/eyewear?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/eyewear.png" alt="Eyewear">
+                    <p class="title">Eyewear</p>
+                    <p class="offer">UP TO 80% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/gadgets?f=Categories%3AHeadphones%2CSpeakers&rf=Discount%20Range%3A10.0_100.0_10.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/speakers.png" alt="Speakers">
+                    <p class="title">Speakers</p>
+                    <p class="offer">UP TO 70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+            <a
+                href="https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+                <div class="category-card">
+                    <img src="images/trolley.png" alt="Trolley Bags">
+                    <p class="title">Trolley Bags</p>
+                    <p class="offer">30-70% OFF</p>
+                    <p class="shop-now">Shop Now</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Slider container -->
+    <div class="slider-container">
+        <img id="slider-image" src="images/myntra-slide-1.png" alt="Myntra Sale Banner">
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <section class="footer-section">
+        <footer>
+            <div class="footer-top">
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <h4>ONLINE SHOPPING</h4>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Beauty</a></li>
+                        <li><a href="#">Genz</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Myntra Insider</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer-col">
+                    <h4>CUSTOMER POLICIES</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">T&C</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Track Orders</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Cancellation</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Grievance Redressal</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-col">
+                    <h4>USEFUL LINKS</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Corporate Information</a></li>
+                        <li><a href="#">Whitehat</a></li>
+                        <li><a href="#">Cleartrip</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="footer-col">
+                    <h4>EXPERIENCE MYNTRA APP ON MOBILE</h4>
+                    <div class="app-icons">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
+                            alt="Google Play" />
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                            alt="App Store" />
+                    </div>
+                    <h4 style="margin-top: 20px;">KEEP IN TOUCH</h4>
+                    <div class="social-icons">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111466.png" alt="Instagram">
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-searches">
+                <h4>POPULAR SEARCHES</h4>
+                <div class="search-links">
+                    <a href="#">Makeup</a> |
+                    <a href="#">Dresses For Girls</a> |
+                    <a href="#">T-Shirts</a> |
+                    <a href="#">Sandals</a> |
+                    <a href="#">Headphones</a> |
+                    <a href="#">Babydolls</a> |
+                    <a href="#">Blazers For Men</a> |
+                    <a href="#">Handbags</a> |
+                    <a href="#">Ladies Watches</a> |
+                    <a href="#">Bags</a> |
+                    <a href="#">Sport Shoes</a> |
+                    <a href="#">Reebok Shoes</a> |
+                    <a href="#">Puma Shoes</a> |
+                    <a href="#">Boxers</a> |
+                    <a href="#">Wallets</a> |
+                    <a href="#">Tops</a> |
+                    <a href="#">Earrings</a> |
+                    <a href="#">Fastrack Watches</a> |
+                    <a href="#">Kurtis</a> |
+                    <a href="#">Nike</a> |
+                    <a href="#">Smart Watches</a> |
+                    <a href="#">Titan Watches</a> |
+                    <a href="#">Designer Blouse</a> |
+                    <a href="#">Gowns</a> |
+                    <a href="#">Rings</a> |
+                    <a href="#">Cricket Shoes</a> |
+                    <a href="#">Forever 21</a> |
+                    <a href="#">Eye Makeup</a> |
+                    <a href="#">Photo Frames</a> |
+                    <a href="#">Punjabi Suits</a> |
+                    <a href="#">Bikini</a> |
+                    <a href="#">Myntra Fashion Show</a> |
+                    <a href="#">Saree</a> |
+                    <a href="#">Lipstick</a> |
+                    <a href="#">Watches</a> |
+                    <a href="#">Dresses</a> |
+                    <a href="#">Lehenga</a> |
+                    <a href="#">Nike Shoes</a> |
+                    <a href="#">Goggles</a> |
+                    <a href="#">Bras</a> |
+                    <a href="#">Suit</a> |
+                    <a href="#">Chinos</a> |
+                    <a href="#">Shoes</a> |
+                    <a href="#">Adidas Shoes</a> |
+                    <a href="#">Woodland Shoes</a> |
+                    <a href="#">Jewellery</a> |
+                    <a href="#">Designers Sarees</a>
+                </div>
+            </div>
+
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>In case of any concern, <a href="#">Contact Us</a></p>
+                <p>© 2025 www.myntra.com. All rights reserved.</p>
+                <p>Designed by: <a href="https://www.linkedin.com/in/arun-kumar-singh-19334a29b/"><span>Arun Kumar
+                            Singh</span></a></p>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

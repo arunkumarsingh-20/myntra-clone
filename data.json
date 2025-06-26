@@ -1,0 +1,973 @@
+{
+ "Shirts": [
+    { "name": "Casual Shirts", "link": "casual-shirts.html" },
+    { "name": "Formal Shirts", "link": "formal-shirts.html" },
+    { "name": "Printed Shirts", "link": "printed-shirts.html" },
+    { "name": "Checked Shirts", "link": "checked-shirts.html" },
+    { "name": "Denim Shirts", "link": "denim-shirts.html" },
+    { "name": "Linen Shirts", "link": "linen-shirts.html" },
+    { "name": "Full Sleeve Shirts", "link": "fullsleeve-shirts.html" },
+    { "name": "Half Sleeve Shirts", "link": "halfsleeve-shirts.html" },
+    { "name": "Slim Fit Shirts", "link": "slimfit-shirts.html" },
+    { "name": "Oversized Shirts", "link": "oversized-shirts.html" }
+  ],
+
+  "T-Shirts": [
+    { "name": "Round Neck", "link": "round-neck.html" },
+    { "name": "V Neck", "link": "v-neck.html" },
+    { "name": "Polo T-Shirts", "link": "polo.html" },
+    { "name": "Graphic T-Shirts", "link": "graphic.html" },
+    { "name": "Plain T-Shirts", "link": "plain.html" },
+    { "name": "Striped T-Shirts", "link": "striped.html" },
+    { "name": "Oversized T-Shirts", "link": "oversized.html" },
+    { "name": "Sleeveless T-Shirts", "link": "sleeveless.html" },
+    { "name": "Sports T-Shirts", "link": "sports.html" },
+    { "name": "Printed T-Shirts", "link": "printed.html" }
+  ],
+
+  "Kurtas": [
+    { "name": "Short Kurtas", "link": "short-kurtas.html" },
+    { "name": "Long Kurtas", "link": "long-kurtas.html" },
+    { "name": "Cotton Kurtas", "link": "cotton-kurtas.html" },
+    { "name": "Printed Kurtas", "link": "printed-kurtas.html" },
+    { "name": "Flared Kurtas", "link": "flared-kurtas.html" },
+    { "name": "Solid Kurtas", "link": "solid-kurtas.html" },
+    { "name": "Kurta Sets", "link": "kurta-sets.html" },
+    { "name": "Anarkali Kurtas", "link": "anarkali.html" },
+    { "name": "Embroidered Kurtas", "link": "embroidered.html" },
+    { "name": "Silk Kurtas", "link": "silk-kurtas.html" }
+  ],
+
+  "Sarees": [
+    { "name": "Cotton Sarees", "link": "cotton-sarees.html" },
+    { "name": "Silk Sarees", "link": "silk-sarees.html" },
+    { "name": "Printed Sarees", "link": "printed-sarees.html" },
+    { "name": "Georgette Sarees", "link": "georgette-sarees.html" },
+    { "name": "Chiffon Sarees", "link": "chiffon-sarees.html" },
+    { "name": "Plain Sarees", "link": "plain-sarees.html" },
+    { "name": "Party Wear Sarees", "link": "partywear-sarees.html" },
+    { "name": "Wedding Sarees", "link": "wedding-sarees.html" },
+    { "name": "Casual Sarees", "link": "casual-sarees.html" },
+    { "name": "Handloom Sarees", "link": "handloom-sarees.html" },
+    { "name": "Sarees For Women", "link": "handloom-sarees.html" },
+    { "name": "Banarasi Sarees", "link": "handloom-sarees.html" },
+    { "name": "Design Sarees", "link": "handloom-sarees.html" },
+    { "name": "Bengali Sarees", "link": "handloom-sarees.html" }
+  ],
+
+  "Dresses": [
+    { "name": "Midi Dresses", "link": "midi-dresses.html" },
+    { "name": "Maxi Dresses", "link": "maxi-dresses.html" },
+    { "name": "A-Line Dresses", "link": "aline-dresses.html" },
+    { "name": "Floral Dresses", "link": "floral-dresses.html" },
+    { "name": "Casual Dresses", "link": "casual-dresses.html" },
+    { "name": "Party Dresses", "link": "party-dresses.html" },
+    { "name": "Bodycon Dresses", "link": "bodycon.html" },
+    { "name": "Wrap Dresses", "link": "wrap-dresses.html" },
+    { "name": "Shirt Dresses", "link": "shirt-dresses.html" },
+    { "name": "Denim Dresses", "link": "denim-dresses.html" }
+  ],
+  "Jeans": [
+    { "name": "Slim Fit Jeans", "link": "slimfit-jeans.html" },
+    { "name": "Straight Fit Jeans", "link": "straightfit-jeans.html" },
+    { "name": "Skinny Jeans", "link": "skinny-jeans.html" },
+    { "name": "Bootcut Jeans", "link": "bootcut-jeans.html" },
+    { "name": "High Rise Jeans", "link": "highrise-jeans.html" },
+    { "name": "Mid Rise Jeans", "link": "midrise-jeans.html" },
+    { "name": "Low Rise Jeans", "link": "lowrise-jeans.html" },
+    { "name": "Distressed Jeans", "link": "distressed-jeans.html" },
+    { "name": "Ankle Length Jeans", "link": "anklelength-jeans.html" },
+    { "name": "Mom Fit Jeans", "link": "momfit-jeans.html" }
+  ],
+
+  "Trousers": [
+    { "name": "Formal Trousers", "link": "formal-trousers.html" },
+    { "name": "Casual Trousers", "link": "casual-trousers.html" },
+    { "name": "Slim Fit Trousers", "link": "slimfit-trousers.html" },
+    { "name": "Pleated Trousers", "link": "pleated-trousers.html" },
+    { "name": "Chinos", "link": "chinos.html" },
+    { "name": "Linen Trousers", "link": "linen-trousers.html" },
+    { "name": "Cotton Trousers", "link": "cotton-trousers.html" },
+    { "name": "Drawstring Trousers", "link": "drawstring-trousers.html" },
+    { "name": "High Waist Trousers", "link": "highwaist-trousers.html" },
+    { "name": "Tapered Trousers", "link": "tapered-trousers.html" }
+  ],
+
+  "Pyjamas": [
+    { "name": "Cotton Pyjamas", "link": "cotton-pyjamas.html" },
+    { "name": "Printed Pyjamas", "link": "printed-pyjamas.html" },
+    { "name": "Solid Pyjamas", "link": "solid-pyjamas.html" },
+    { "name": "Long Pyjamas", "link": "long-pyjamas.html" },
+    { "name": "Short Pyjamas", "link": "short-pyjamas.html" },
+    { "name": "Lounge Pyjamas", "link": "lounge-pyjamas.html" },
+    { "name": "Silk Pyjamas", "link": "silk-pyjamas.html" },
+    { "name": "Relaxed Fit Pyjamas", "link": "relaxedfit-pyjamas.html" },
+    { "name": "Drawstring Pyjamas", "link": "drawstring-pyjamas.html" },
+    { "name": "Tapered Pyjamas", "link": "tapered-pyjamas.html" }
+  ],
+
+  "Jackets": [
+    { "name": "Denim Jackets", "link": "denim-jackets.html" },
+    { "name": "Bomber Jackets", "link": "bomber-jackets.html" },
+    { "name": "Leather Jackets", "link": "leather-jackets.html" },
+    { "name": "Puffer Jackets", "link": "puffer-jackets.html" },
+    { "name": "Blazers", "link": "blazers.html" },
+    { "name": "Windcheaters", "link": "windcheaters.html" },
+    { "name": "Hooded Jackets", "link": "hooded-jackets.html" },
+    { "name": "Trench Coats", "link": "trench-coats.html" },
+    { "name": "Sleeveless Jackets", "link": "sleeveless-jackets.html" },
+    { "name": "Faux Fur Jackets", "link": "fauxfur-jackets.html" }
+  ],
+
+  "Shoes": [
+    { "name": "Sneakers", "link": "sneakers.html" },
+    { "name": "Running Shoes", "link": "running-shoes.html" },
+    { "name": "Casual Shoes", "link": "casual-shoes.html" },
+    { "name": "Formal Shoes", "link": "formal-shoes.html" },
+    { "name": "Sports Shoes", "link": "sports-shoes.html" },
+    { "name": "Loafers", "link": "loafers.html" },
+    { "name": "Slip Ons", "link": "slipons.html" },
+    { "name": "Sandals", "link": "sandals.html" },
+    { "name": "Boots", "link": "boots.html" },
+    { "name": "Flip Flops", "link": "flipflops.html" }
+  ],
+  "Tops": [
+    { "name": "Crop Tops", "link": "crop-tops.html" },
+    { "name": "Tank Tops", "link": "tank-tops.html" },
+    { "name": "Basic Tops", "link": "basic-tops.html" },
+    { "name": "Sleeveless Tops", "link": "sleeveless-tops.html" },
+    { "name": "Full Sleeve Tops", "link": "fullsleeve-tops.html" },
+    { "name": "Off Shoulder Tops", "link": "offshoulder-tops.html" },
+    { "name": "Wrap Tops", "link": "wrap-tops.html" },
+    { "name": "Tunic Tops", "link": "tunic-tops.html" },
+    { "name": "Peplum Tops", "link": "peplum-tops.html" },
+    { "name": "Printed Tops", "link": "printed-tops.html" }
+  ],
+
+  "Skirts": [
+    { "name": "Mini Skirts", "link": "mini-skirts.html" },
+    { "name": "Midi Skirts", "link": "midi-skirts.html" },
+    { "name": "Maxi Skirts", "link": "maxi-skirts.html" },
+    { "name": "Pleated Skirts", "link": "pleated-skirts.html" },
+    { "name": "Denim Skirts", "link": "denim-skirts.html" },
+    { "name": "Wrap Skirts", "link": "wrap-skirts.html" },
+    { "name": "A-Line Skirts", "link": "aline-skirts.html" },
+    { "name": "Flared Skirts", "link": "flared-skirts.html" },
+    { "name": "Layered Skirts", "link": "layered-skirts.html" },
+    { "name": "Printed Skirts", "link": "printed-skirts.html" }
+  ],
+
+  "Sweatshirts": [
+    { "name": "Printed Sweatshirts", "link": "printed-sweatshirts.html" },
+    { "name": "Solid Sweatshirts", "link": "solid-sweatshirts.html" },
+    { "name": "Oversized Sweatshirts", "link": "oversized-sweatshirts.html" },
+    { "name": "Zip-Up Sweatshirts", "link": "zipup-sweatshirts.html" },
+    { "name": "Hooded Sweatshirts", "link": "hooded-sweatshirts.html" },
+    { "name": "Graphic Sweatshirts", "link": "graphic-sweatshirts.html" },
+    { "name": "Crew Neck Sweatshirts", "link": "crewneck-sweatshirts.html" },
+    { "name": "Fleece Sweatshirts", "link": "fleece-sweatshirts.html" },
+    { "name": "Round Neck Sweatshirts", "link": "roundneck-sweatshirts.html" },
+    { "name": "Colorblock Sweatshirts", "link": "colorblock-sweatshirts.html" }
+  ],
+
+  "Track Pants": [
+    { "name": "Cotton Track Pants", "link": "cotton-trackpants.html" },
+    { "name": "Slim Fit Track Pants", "link": "slimfit-trackpants.html" },
+    { "name": "Loose Fit Track Pants", "link": "loosefit-trackpants.html" },
+    { "name": "Solid Track Pants", "link": "solid-trackpants.html" },
+    { "name": "Side Striped Track Pants", "link": "striped-trackpants.html" },
+    { "name": "Jogger Track Pants", "link": "jogger-trackpants.html" },
+    { "name": "Printed Track Pants", "link": "printed-trackpants.html" },
+    { "name": "Tapered Track Pants", "link": "tapered-trackpants.html" },
+    { "name": "High Rise Track Pants", "link": "highrise-trackpants.html" },
+    { "name": "Sporty Track Pants", "link": "sporty-trackpants.html" }
+  ],
+
+  "Bras": [
+    { "name": "T-Shirt Bras", "link": "tshirt-bras.html" },
+    { "name": "Padded Bras", "link": "padded-bras.html" },
+    { "name": "Non Padded Bras", "link": "nonpadded-bras.html" },
+    { "name": "Wirefree Bras", "link": "wirefree-bras.html" },
+    { "name": "Sports Bras", "link": "sports-bras.html" },
+    { "name": "Full Coverage Bras", "link": "fullcoverage-bras.html" },
+    { "name": "Lace Bras", "link": "lace-bras.html" },
+    { "name": "Printed Bras", "link": "printed-bras.html" },
+    { "name": "Minimizer Bras", "link": "minimizer-bras.html" },
+    { "name": "Strapless Bras", "link": "strapless-bras.html" }
+  ],
+  "Sweaters": [
+    { "name": "V Neck Sweaters", "link": "vneck-sweaters.html" },
+    { "name": "Round Neck Sweaters", "link": "roundneck-sweaters.html" },
+    { "name": "Knitted Sweaters", "link": "knitted-sweaters.html" },
+    { "name": "Striped Sweaters", "link": "striped-sweaters.html" },
+    { "name": "Cable Knit Sweaters", "link": "cableknit-sweaters.html" },
+    { "name": "Oversized Sweaters", "link": "oversized-sweaters.html" },
+    { "name": "Sleeveless Sweaters", "link": "sleeveless-sweaters.html" },
+    { "name": "Printed Sweaters", "link": "printed-sweaters.html" },
+    { "name": "Turtleneck Sweaters", "link": "turtleneck-sweaters.html" },
+    { "name": "Colorblock Sweaters", "link": "colorblock-sweaters.html" }
+  ],
+
+  "Blazers": [
+    { "name": "Formal Blazers", "link": "formal-blazers.html" },
+    { "name": "Casual Blazers", "link": "casual-blazers.html" },
+    { "name": "Slim Fit Blazers", "link": "slimfit-blazers.html" },
+    { "name": "Oversized Blazers", "link": "oversized-blazers.html" },
+    { "name": "Linen Blazers", "link": "linen-blazers.html" },
+    { "name": "Textured Blazers", "link": "textured-blazers.html" },
+    { "name": "Printed Blazers", "link": "printed-blazers.html" },
+    { "name": "Double Breasted Blazers", "link": "doublebreasted-blazers.html" },
+    { "name": "Velvet Blazers", "link": "velvet-blazers.html" },
+    { "name": "Party Blazers", "link": "party-blazers.html" }
+  ],
+
+  "Shorts": [
+    { "name": "Denim Shorts", "link": "denim-shorts.html" },
+    { "name": "Cotton Shorts", "link": "cotton-shorts.html" },
+    { "name": "High Waist Shorts", "link": "highwaist-shorts.html" },
+    { "name": "Printed Shorts", "link": "printed-shorts.html" },
+    { "name": "Casual Shorts", "link": "casual-shorts.html" },
+    { "name": "Relaxed Fit Shorts", "link": "relaxedfit-shorts.html" },
+    { "name": "Lounge Shorts", "link": "lounge-shorts.html" },
+    { "name": "Gym Shorts", "link": "gym-shorts.html" },
+    { "name": "Chino Shorts", "link": "chino-shorts.html" },
+    { "name": "Running Shorts", "link": "running-shorts.html" }
+  ],
+
+  "Co-ords": [
+    { "name": "Top And Skirt Sets", "link": "top-skirt-coords.html" },
+    { "name": "Blazer Co-ords", "link": "blazer-coords.html" },
+    { "name": "Printed Co-ords", "link": "printed-coords.html" },
+    { "name": "Cotton Co-ords", "link": "cotton-coords.html" },
+    { "name": "Sleeveless Co-ords", "link": "sleeveless-coords.html" },
+    { "name": "Floral Co-ords", "link": "floral-coords.html" },
+    { "name": "Crop Top Co-ords", "link": "croptop-coords.html" },
+    { "name": "Monochrome Co-ords", "link": "monochrome-coords.html" },
+    { "name": "Party Co-ords", "link": "party-coords.html" },
+    { "name": "Loungewear Co-ords", "link": "loungewear-coords.html" }
+  ],
+
+  "Jumpsuits": [
+    { "name": "Sleeveless Jumpsuits", "link": "sleeveless-jumpsuits.html" },
+    { "name": "Denim Jumpsuits", "link": "denim-jumpsuits.html" },
+    { "name": "Printed Jumpsuits", "link": "printed-jumpsuits.html" },
+    { "name": "Floral Jumpsuits", "link": "floral-jumpsuits.html" },
+    { "name": "Casual Jumpsuits", "link": "casual-jumpsuits.html" },
+    { "name": "Party Jumpsuits", "link": "party-jumpsuits.html" },
+    { "name": "Long Jumpsuits", "link": "long-jumpsuits.html" },
+    { "name": "Short Jumpsuits", "link": "short-jumpsuits.html" },
+    { "name": "Belted Jumpsuits", "link": "belted-jumpsuits.html" },
+    { "name": "Off Shoulder Jumpsuits", "link": "offshoulder-jumpsuits.html" }
+  ],
+  "Kids T-Shirts": [
+    { "name": "Cartoon T-Shirts", "link": "cartoon-tshirts.html" },
+    { "name": "Printed T-Shirts", "link": "printed-tshirts.html" },
+    { "name": "Solid T-Shirts", "link": "solid-tshirts.html" },
+    { "name": "Half Sleeve T-Shirts", "link": "halfsleeve-tshirts.html" },
+    { "name": "Full Sleeve T-Shirts", "link": "fullsleeve-tshirts.html" },
+    { "name": "Graphic T-Shirts", "link": "graphic-tshirts.html" },
+    { "name": "Striped T-Shirts", "link": "striped-tshirts.html" },
+    { "name": "Henley T-Shirts", "link": "henley-tshirts.html" },
+    { "name": "Collar T-Shirts", "link": "collar-tshirts.html" },
+    { "name": "Oversized T-Shirts", "link": "oversized-tshirts.html" }
+  ],
+
+  "Kids Shorts": [
+    { "name": "Cotton Shorts", "link": "cotton-shorts.html" },
+    { "name": "Printed Shorts", "link": "printed-shorts.html" },
+    { "name": "Denim Shorts", "link": "denim-shorts.html" },
+    { "name": "Sports Shorts", "link": "sports-shorts.html" },
+    { "name": "Solid Shorts", "link": "solid-shorts.html" },
+    { "name": "Elastic Waist Shorts", "link": "elastic-shorts.html" },
+    { "name": "Drawstring Shorts", "link": "drawstring-shorts.html" },
+    { "name": "Cartoon Shorts", "link": "cartoon-shorts.html" },
+    { "name": "Striped Shorts", "link": "striped-shorts.html" },
+    { "name": "Relaxed Fit Shorts", "link": "relaxedfit-shorts.html" }
+  ],
+
+  "Kids Dresses": [
+    { "name": "Party Dresses", "link": "party-dresses.html" },
+    { "name": "Frock Dresses", "link": "frock-dresses.html" },
+    { "name": "Printed Dresses", "link": "printed-dresses.html" },
+    { "name": "Floral Dresses", "link": "floral-dresses.html" },
+    { "name": "Denim Dresses", "link": "denim-dresses.html" },
+    { "name": "Tulle Dresses", "link": "tulle-dresses.html" },
+    { "name": "Maxi Dresses", "link": "maxi-dresses.html" },
+    { "name": "Casual Dresses", "link": "casual-dresses.html" },
+    { "name": "Striped Dresses", "link": "striped-dresses.html" },
+    { "name": "Bow Dresses", "link": "bow-dresses.html" }
+  ],
+
+  "Kids Shirts": [
+    { "name": "Checked Shirts", "link": "checked-shirts.html" },
+    { "name": "Denim Shirts", "link": "denim-shirts.html" },
+    { "name": "Printed Shirts", "link": "printed-shirts.html" },
+    { "name": "Solid Shirts", "link": "solid-shirts.html" },
+    { "name": "Cartoon Shirts", "link": "cartoon-shirts.html" },
+    { "name": "Formal Shirts", "link": "formal-shirts.html" },
+    { "name": "Linen Shirts", "link": "linen-shirts.html" },
+    { "name": "Half Sleeve Shirts", "link": "halfsleeve-shirts.html" },
+    { "name": "Full Sleeve Shirts", "link": "fullsleeve-shirts.html" },
+    { "name": "Striped Shirts", "link": "striped-shirts.html" }
+  ],
+
+  "Kids Ethnic Wear": [
+    { "name": "Kurta Sets", "link": "kurta-sets.html" },
+    { "name": "Lehenga Choli", "link": "lehenga-choli.html" },
+    { "name": "Sherwani Sets", "link": "sherwani-sets.html" },
+    { "name": "Dhoti Sets", "link": "dhoti-sets.html" },
+    { "name": "Pathani Sets", "link": "pathani-sets.html" },
+    { "name": "Salwar Kameez", "link": "salwar-kameez.html" },
+    { "name": "Indo Western Sets", "link": "indo-western.html" },
+    { "name": "Kurti Sets", "link": "kurti-sets.html" },
+    { "name": "Nehru Jackets", "link": "nehru-jackets.html" },
+    { "name": "Festival Wear", "link": "festival-wear.html" }
+  ],
+
+  "Kids Nightwear": [
+    { "name": "Cotton Night Suits", "link": "cotton-nightsuits.html" },
+    { "name": "Printed Pyjamas", "link": "printed-pyjamas.html" },
+    { "name": "Sleepsuits", "link": "sleepsuits.html" },
+    { "name": "Cartoon Nightwear", "link": "cartoon-nightwear.html" },
+    { "name": "Winter Nightwear", "link": "winter-nightwear.html" },
+    { "name": "Full Sleeve Nightwear", "link": "fullsleeve-nightwear.html" },
+    { "name": "Half Sleeve Nightwear", "link": "halfsleeve-nightwear.html" },
+    { "name": "Shorts Set", "link": "shorts-nightwear.html" },
+    { "name": "Lounge Sets", "link": "lounge-sets.html" },
+    { "name": "Soft Fabric Wear", "link": "softfabric-nightwear.html" }
+  ],
+
+  "Kids Jackets": [
+    { "name": "Kids Denim Jackets", "link": "denim-jackets.html" },
+    { "name": "Kids Puffer Jackets", "link": "puffer-jackets.html" },
+    { "name": "Kids Bomber Jackets", "link": "bomber-jackets.html" },
+    { "name": "Kids Hooded Jackets", "link": "hooded-jackets.html" },
+    { "name": "Kids Winter Jackets", "link": "winter-jackets.html" },
+    { "name": "Kids Printed Jackets", "link": "printed-jackets.html" },
+    { "name": "Kids Solid Jackets", "link": "solid-jackets.html" },
+    { "name": "Kids Sleeveless Jackets", "link": "sleeveless-jackets.html" },
+    { "name": "Kids Quilted Jackets", "link": "quilted-jackets.html" },
+    { "name": "Kids Reversible Jackets", "link": "reversible-jackets.html" }
+  ],
+
+  "Baby Rompers": [
+    { "name": "Cotton Rompers", "link": "cotton-rompers.html" },
+    { "name": "Printed Rompers", "link": "printed-rompers.html" },
+    { "name": "Animal Print Rompers", "link": "animalprint-rompers.html" },
+    { "name": "Sleeveless Rompers", "link": "sleeveless-rompers.html" },
+    { "name": "Full Sleeve Rompers", "link": "fullsleeve-rompers.html" },
+    { "name": "Winter Rompers", "link": "winter-rompers.html" },
+    { "name": "Buttoned Rompers", "link": "buttoned-rompers.html" },
+    { "name": "Zipper Rompers", "link": "zipper-rompers.html" },
+    { "name": "Hooded Rompers", "link": "hooded-rompers.html" },
+    { "name": "Fleece Rompers", "link": "fleece-rompers.html" }
+  ],
+
+  "Baby Caps": [
+    { "name": "Knitted Caps", "link": "knitted-caps.html" },
+    { "name": "Printed Caps", "link": "printed-caps.html" },
+    { "name": "Cotton Caps", "link": "cotton-caps.html" },
+    { "name": "Cartoon Caps", "link": "cartoon-caps.html" },
+    { "name": "Fleece Caps", "link": "fleece-caps.html" },
+    { "name": "Bear Ears Caps", "link": "bearears-caps.html" },
+    { "name": "Floral Caps", "link": "floral-caps.html" },
+    { "name": "Winter Caps", "link": "winter-caps.html" },
+    { "name": "Beanie Caps", "link": "beanie-caps.html" },
+    { "name": "Bow Caps", "link": "bow-caps.html" }
+  ],
+
+  "Baby Booties": [
+    { "name": "Cotton Booties", "link": "cotton-booties.html" },
+    { "name": "Knitted Booties", "link": "knitted-booties.html" },
+    { "name": "Printed Booties", "link": "printed-booties.html" },
+    { "name": "Velcro Booties", "link": "velcro-booties.html" },
+    { "name": "Soft Sole Booties", "link": "softsole-booties.html" },
+    { "name": "Fleece Booties", "link": "fleece-booties.html" },
+    { "name": "Animal Booties", "link": "animal-booties.html" },
+    { "name": "Winter Booties", "link": "winter-booties.html" },
+    { "name": "Cartoon Booties", "link": "cartoon-booties.html" },
+    { "name": "Button Booties", "link": "button-booties.html" }
+  ],
+  "Panties": [
+    { "name": "Bikini Panties", "link": "bikini-panties.html" },
+    { "name": "Hipster Panties", "link": "hipster-panties.html" },
+    { "name": "Brief Panties", "link": "brief-panties.html" },
+    { "name": "Thong Panties", "link": "thong-panties.html" },
+    { "name": "Seamless Panties", "link": "seamless-panties.html" },
+    { "name": "Cotton Panties", "link": "cotton-panties.html" },
+    { "name": "Lace Panties", "link": "lace-panties.html" },
+    { "name": "Printed Panties", "link": "printed-panties.html" },
+    { "name": "Low Rise Panties", "link": "lowrise-panties.html" },
+    { "name": "High Waist Panties", "link": "highwaist-panties.html" }
+  ],
+
+  "Trunks": [
+    { "name": "Solid Trunks", "link": "solid-trunks.html" },
+    { "name": "Printed Trunks", "link": "printed-trunks.html" },
+    { "name": "Cotton Trunks", "link": "cotton-trunks.html" },
+    { "name": "Stretch Trunks", "link": "stretch-trunks.html" },
+    { "name": "Low Rise Trunks", "link": "lowrise-trunks.html" },
+    { "name": "High Waist Trunks", "link": "highwaist-trunks.html" },
+    { "name": "Sport Trunks", "link": "sport-trunks.html" },
+    { "name": "Classic Trunks", "link": "classic-trunks.html" },
+    { "name": "Long Trunks", "link": "long-trunks.html" },
+    { "name": "Short Trunks", "link": "short-trunks.html" }
+  ],
+
+  "Boxers": [
+    { "name": "Printed Boxers", "link": "printed-boxers.html" },
+    { "name": "Solid Boxers", "link": "solid-boxers.html" },
+    { "name": "Checked Boxers", "link": "checked-boxers.html" },
+    { "name": "Cotton Boxers", "link": "cotton-boxers.html" },
+    { "name": "Loose Fit Boxers", "link": "loosefit-boxers.html" },
+    { "name": "Slim Fit Boxers", "link": "slimfit-boxers.html" },
+    { "name": "Elastic Waist Boxers", "link": "elastic-boxers.html" },
+    { "name": "Button Fly Boxers", "link": "buttonfly-boxers.html" },
+    { "name": "Pop Culture Boxers", "link": "popculture-boxers.html" },
+    { "name": "Graphic Boxers", "link": "graphic-boxers.html" }
+  ],
+
+  "Camisoles": [
+    { "name": "Basic Camisoles", "link": "basic-camisoles.html" },
+    { "name": "Lace Camisoles", "link": "lace-camisoles.html" },
+    { "name": "Spaghetti Camisoles", "link": "spaghetti-camisoles.html" },
+    { "name": "Padded Camisoles", "link": "padded-camisoles.html" },
+    { "name": "Seamless Camisoles", "link": "seamless-camisoles.html" },
+    { "name": "Cotton Camisoles", "link": "cotton-camisoles.html" },
+    { "name": "Printed Camisoles", "link": "printed-camisoles.html" },
+    { "name": "Slim Fit Camisoles", "link": "slimfit-camisoles.html" },
+    { "name": "Adjustable Straps", "link": "adjustablestraps-camisoles.html" },
+    { "name": "Shapewear Camisoles", "link": "shapewear-camisoles.html" }
+  ],
+
+  "Thermals": [
+    { "name": "Full Sleeve Thermals", "link": "fullsleeve-thermals.html" },
+    { "name": "Half Sleeve Thermals", "link": "halfsleeve-thermals.html" },
+    { "name": "Thermal Tops", "link": "thermal-tops.html" },
+    { "name": "Thermal Bottoms", "link": "thermal-bottoms.html" },
+    { "name": "Cotton Thermals", "link": "cotton-thermals.html" },
+    { "name": "Wool Blend Thermals", "link": "woolblend-thermals.html" },
+    { "name": "Innerwear Thermals", "link": "innerwear-thermals.html" },
+    { "name": "Sleeveless Thermals", "link": "sleeveless-thermals.html" },
+    { "name": "Stretch Thermals", "link": "stretch-thermals.html" },
+    { "name": "Kids Thermals", "link": "kids-thermals.html" }
+  ],
+
+  "Night Suits": [
+    { "name": "Cotton Night Suits", "link": "cotton-nightsuits.html" },
+    { "name": "Printed Night Suits", "link": "printed-nightsuits.html" },
+    { "name": "Checked Night Suits", "link": "checked-nightsuits.html" },
+    { "name": "Sleeveless Night Suits", "link": "sleeveless-nightsuits.html" },
+    { "name": "Full Sleeve Night Suits", "link": "fullsleeve-nightsuits.html" },
+    { "name": "Shorts Set Night Suits", "link": "shorts-nightsuits.html" },
+    { "name": "Winter Night Suits", "link": "winter-nightsuits.html" },
+    { "name": "Graphic Night Suits", "link": "graphic-nightsuits.html" },
+    { "name": "Lounge Night Suits", "link": "lounge-nightsuits.html" },
+    { "name": "Satin Night Suits", "link": "satin-nightsuits.html" }
+  ],
+
+  "Slips": [
+    { "name": "Cotton Slips", "link": "cotton-slips.html" },
+    { "name": "Lace Slips", "link": "lace-slips.html" },
+    { "name": "Basic Slips", "link": "basic-slips.html" },
+    { "name": "Padded Slips", "link": "padded-slips.html" },
+    { "name": "Seamless Slips", "link": "seamless-slips.html" },
+    { "name": "Spaghetti Slips", "link": "spaghetti-slips.html" },
+    { "name": "Full Length Slips", "link": "fulllength-slips.html" },
+    { "name": "V-Neck Slips", "link": "vneck-slips.html" },
+    { "name": "Adjustable Strap Slips", "link": "adjustablestrap-slips.html" },
+    { "name": "Printed Slips", "link": "printed-slips.html" }
+  ],
+  "Shapewear": [
+    { "name": "Tummy Control", "link": "tummy-control.html" },
+    { "name": "Thigh Shapers", "link": "thigh-shapers.html" },
+    { "name": "Waist Cinchers", "link": "waist-cinchers.html" },
+    { "name": "Full Body Shapers", "link": "fullbody-shapers.html" },
+    { "name": "High Waist Briefs", "link": "highwaist-briefs.html" },
+    { "name": "Shaping Camisoles", "link": "shaping-camisoles.html" },
+    { "name": "Slip Shapers", "link": "slip-shapers.html" },
+    { "name": "Bodysuits", "link": "bodysuits.html" },
+    { "name": "Shaping Leggings", "link": "shaping-leggings.html" },
+    { "name": "Invisible Shapewear", "link": "invisible-shapewear.html" }
+  ],
+
+  "Robes": [
+    { "name": "Cotton Robes", "link": "cotton-robes.html" },
+    { "name": "Satin Robes", "link": "satin-robes.html" },
+    { "name": "Hooded Robes", "link": "hooded-robes.html" },
+    { "name": "Short Robes", "link": "short-robes.html" },
+    { "name": "Long Robes", "link": "long-robes.html" },
+    { "name": "Terry Robes", "link": "terry-robes.html" },
+    { "name": "Printed Robes", "link": "printed-robes.html" },
+    { "name": "Lace Robes", "link": "lace-robes.html" },
+    { "name": "Floral Robes", "link": "floral-robes.html" },
+    { "name": "Wrap Robes", "link": "wrap-robes.html" }
+  ],
+
+
+
+  "Sneakers": [
+    { "name": "High Top Sneakers", "link": "hightop-sneakers.html" },
+    { "name": "Low Top Sneakers", "link": "lowtop-sneakers.html" },
+    { "name": "Slip-On Sneakers", "link": "slipon-sneakers.html" },
+    { "name": "Chunky Sneakers", "link": "chunky-sneakers.html" },
+    { "name": "White Sneakers", "link": "white-sneakers.html" },
+    { "name": "Casual Sneakers", "link": "casual-sneakers.html" },
+    { "name": "Printed Sneakers", "link": "printed-sneakers.html" },
+    { "name": "Colorblock Sneakers", "link": "colorblock-sneakers.html" },
+    { "name": "Mesh Sneakers", "link": "mesh-sneakers.html" },
+    { "name": "Leather Sneakers", "link": "leather-sneakers.html" }
+  ],
+
+  "Loafers": [
+    { "name": "Driving Loafers", "link": "driving-loafers.html" },
+    { "name": "Tassel Loafers", "link": "tassel-loafers.html" },
+    { "name": "Penny Loafers", "link": "penny-loafers.html" },
+    { "name": "Bit Loafers", "link": "bit-loafers.html" },
+    { "name": "Suede Loafers", "link": "suede-loafers.html" },
+    { "name": "Leather Loafers", "link": "leather-loafers.html" },
+    { "name": "Moccasin Loafers", "link": "moccasin-loafers.html" },
+    { "name": "Slip-On Loafers", "link": "slipon-loafers.html" },
+    { "name": "Casual Loafers", "link": "casual-loafers.html" },
+    { "name": "Formal Loafers", "link": "formal-loafers.html" }
+  ],
+
+  "Sandals": [
+    { "name": "Flat Sandals", "link": "flat-sandals.html" },
+    { "name": "Strappy Sandals", "link": "strappy-sandals.html" },
+    { "name": "Heeled Sandals", "link": "heeled-sandals.html" },
+    { "name": "Wedge Sandals", "link": "wedge-sandals.html" },
+    { "name": "Gladiator Sandals", "link": "gladiator-sandals.html" },
+    { "name": "Slide Sandals", "link": "slide-sandals.html" },
+    { "name": "Casual Sandals", "link": "casual-sandals.html" },
+    { "name": "Toe Ring Sandals", "link": "toering-sandals.html" },
+    { "name": "Block Heel Sandals", "link": "blockheel-sandals.html" },
+    { "name": "Dress Sandals", "link": "dress-sandals.html" }
+  ],
+
+  "Flip-Flops": [
+    { "name": "Basic Flip-Flops", "link": "basic-flipflops.html" },
+    { "name": "Printed Flip-Flops", "link": "printed-flipflops.html" },
+    { "name": "Rubber Flip-Flops", "link": "rubber-flipflops.html" },
+    { "name": "Graphic Flip-Flops", "link": "graphic-flipflops.html" },
+    { "name": "Foam Flip-Flops", "link": "foam-flipflops.html" },
+    { "name": "Beach Flip-Flops", "link": "beach-flipflops.html" },
+    { "name": "Textured Flip-Flops", "link": "textured-flipflops.html" },
+    { "name": "Colorblock Flip-Flops", "link": "colorblock-flipflops.html" },
+    { "name": "Slide Flip-Flops", "link": "slide-flipflops.html" },
+    { "name": "Casual Flip-Flops", "link": "casual-flipflops.html" }
+  ],
+
+  "Boots": [
+    { "name": "Ankle Boots", "link": "ankle-boots.html" },
+    { "name": "Chelsea Boots", "link": "chelsea-boots.html" },
+    { "name": "Combat Boots", "link": "combat-boots.html" },
+    { "name": "Heeled Boots", "link": "heeled-boots.html" },
+    { "name": "Suede Boots", "link": "suede-boots.html" },
+    { "name": "Fur Lined Boots", "link": "furlined-boots.html" },
+    { "name": "Lace-Up Boots", "link": "laceup-boots.html" },
+    { "name": "Flat Boots", "link": "flat-boots.html" },
+    { "name": "Knee High Boots", "link": "kneehigh-boots.html" },
+    { "name": "Platform Boots", "link": "platform-boots.html" }
+  ],
+
+  "Heels": [
+    { "name": "Block Heels", "link": "block-heels.html" },
+    { "name": "Kitten Heels", "link": "kitten-heels.html" },
+    { "name": "Stilettos", "link": "stilettos.html" },
+    { "name": "Platform Heels", "link": "platform-heels.html" },
+    { "name": "Wedge Heels", "link": "wedge-heels.html" },
+    { "name": "Peep Toe Heels", "link": "peeptoe-heels.html" },
+    { "name": "Pointed Heels", "link": "pointed-heels.html" },
+    { "name": "Transparent Heels", "link": "transparent-heels.html" },
+    { "name": "Ankle Strap Heels", "link": "anklestrap-heels.html" },
+    { "name": "Party Heels", "link": "party-heels.html" }
+  ],
+
+  "Flats": [
+    { "name": "Ballet Flats", "link": "ballet-flats.html" },
+    { "name": "Pointed Flats", "link": "pointed-flats.html" },
+    { "name": "Embellished Flats", "link": "embellished-flats.html" },
+    { "name": "Casual Flats", "link": "casual-flats.html" },
+    { "name": "Slip-On Flats", "link": "slipon-flats.html" },
+    { "name": "Slingback Flats", "link": "slingback-flats.html" },
+    { "name": "Mule Flats", "link": "mule-flats.html" },
+    { "name": "Ethnic Flats", "link": "ethnic-flats.html" },
+    { "name": "Printed Flats", "link": "printed-flats.html" },
+    { "name": "Textured Flats", "link": "textured-flats.html" }
+  ],
+  "Mojaris": [
+    { "name": "Embroidered Mojaris", "link": "embroidered-mojaris.html" },
+    { "name": "Leather Mojaris", "link": "leather-mojaris.html" },
+    { "name": "Printed Mojaris", "link": "printed-mojaris.html" },
+    { "name": "Velvet Mojaris", "link": "velvet-mojaris.html" },
+    { "name": "Wedding Mojaris", "link": "wedding-mojaris.html" },
+    { "name": "Flat Mojaris", "link": "flat-mojaris.html" },
+    { "name": "Casual Mojaris", "link": "casual-mojaris.html" },
+    { "name": "Designer Mojaris", "link": "designer-mojaris.html" },
+    { "name": "Ethnic Mojaris", "link": "ethnic-mojaris.html" },
+    { "name": "Colorful Mojaris", "link": "colorful-mojaris.html" }
+  ],
+
+  "Sliders": [
+    { "name": "Casual Sliders", "link": "casual-sliders.html" },
+    { "name": "Graphic Sliders", "link": "graphic-sliders.html" },
+    { "name": "Textured Sliders", "link": "textured-sliders.html" },
+    { "name": "Rubber Sliders", "link": "rubber-sliders.html" },
+    { "name": "Foam Sliders", "link": "foam-sliders.html" },
+    { "name": "Beach Sliders", "link": "beach-sliders.html" },
+    { "name": "Slide-In Sliders", "link": "slidein-sliders.html" },
+    { "name": "Padded Sliders", "link": "padded-sliders.html" },
+    { "name": "Brand Print Sliders", "link": "brandprint-sliders.html" },
+    { "name": "Minimal Sliders", "link": "minimal-sliders.html" }
+  ],
+
+  "Handbags": [
+    { "name": "Tote Bags", "link": "tote-bags.html" },
+    { "name": "Shoulder Bags", "link": "shoulder-bags.html" },
+    { "name": "Hobo Bags", "link": "hobo-bags.html" },
+    { "name": "Satchel Bags", "link": "satchel-bags.html" },
+    { "name": "Mini Bags", "link": "mini-bags.html" },
+    { "name": "Structured Bags", "link": "structured-bags.html" },
+    { "name": "Embellished Bags", "link": "embellished-bags.html" },
+    { "name": "Printed Bags", "link": "printed-bags.html" },
+    { "name": "Formal Handbags", "link": "formal-handbags.html" },
+    { "name": "Casual Handbags", "link": "casual-handbags.html" }
+  ],
+
+  "Backpacks": [
+    { "name": "Casual Backpacks", "link": "casual-backpacks.html" },
+    { "name": "Laptop Backpacks", "link": "laptop-backpacks.html" },
+    { "name": "Travel Backpacks", "link": "travel-backpacks.html" },
+    { "name": "Printed Backpacks", "link": "printed-backpacks.html" },
+    { "name": "Solid Backpacks", "link": "solid-backpacks.html" },
+    { "name": "Waterproof Backpacks", "link": "waterproof-backpacks.html" },
+    { "name": "Foldable Backpacks", "link": "foldable-backpacks.html" },
+    { "name": "Compact Backpacks", "link": "compact-backpacks.html" },
+    { "name": "Anti-Theft Backpacks", "link": "antitheft-backpacks.html" },
+    { "name": "Outdoor Backpacks", "link": "outdoor-backpacks.html" }
+  ],
+
+  "Sling Bags": [
+    { "name": "Mini Slings", "link": "mini-slings.html" },
+    { "name": "Crossbody Slings", "link": "crossbody-slings.html" },
+    { "name": "Chain Strap Slings", "link": "chainstrap-slings.html" },
+    { "name": "Embroidered Slings", "link": "embroidered-slings.html" },
+    { "name": "Casual Slings", "link": "casual-slings.html" },
+    { "name": "Printed Slings", "link": "printed-slings.html" },
+    { "name": "Structured Slings", "link": "structured-slings.html" },
+    { "name": "Party Sling Bags", "link": "party-slings.html" },
+    { "name": "Textured Slings", "link": "textured-slings.html" },
+    { "name": "Compact Slings", "link": "compact-slings.html" }
+  ],
+
+  "Wallets": [
+    { "name": "Bi-Fold Wallets", "link": "bifold-wallets.html" },
+    { "name": "Tri-Fold Wallets", "link": "trifold-wallets.html" },
+    { "name": "Card Holders", "link": "card-holders.html" },
+    { "name": "Zipper Wallets", "link": "zipper-wallets.html" },
+    { "name": "Slim Wallets", "link": "slim-wallets.html" },
+    { "name": "Leather Wallets", "link": "leather-wallets.html" },
+    { "name": "Printed Wallets", "link": "printed-wallets.html" },
+    { "name": "Coin Pouches", "link": "coin-pouches.html" },
+    { "name": "Minimal Wallets", "link": "minimal-wallets.html" },
+    { "name": "Casual Wallets", "link": "casual-wallets.html" }
+  ],
+
+  "Trolleys": [
+    { "name": "Cabin Trolleys", "link": "cabin-trolleys.html" },
+    { "name": "Hard Shell Trolleys", "link": "hardshell-trolleys.html" },
+    { "name": "Soft Luggage", "link": "soft-luggage.html" },
+    { "name": "Expandable Trolleys", "link": "expandable-trolleys.html" },
+    { "name": "2-Wheel Trolleys", "link": "2wheel-trolleys.html" },
+    { "name": "4-Wheel Trolleys", "link": "4wheel-trolleys.html" },
+    { "name": "Check-In Trolleys", "link": "checkin-trolleys.html" },
+    { "name": "Printed Trolleys", "link": "printed-trolleys.html" },
+    { "name": "Luggage Sets", "link": "luggage-sets.html" },
+    { "name": "Lightweight Trolleys", "link": "lightweight-trolleys.html" }
+  ],
+  "Duffle Bags": [
+    { "name": "Travel Duffles", "link": "travel-duffles.html" },
+    { "name": "Gym Duffles", "link": "gym-duffles.html" },
+    { "name": "Leather Duffles", "link": "leather-duffles.html" },
+    { "name": "Printed Duffles", "link": "printed-duffles.html" },
+    { "name": "Canvas Duffles", "link": "canvas-duffles.html" },
+    { "name": "Compact Duffles", "link": "compact-duffles.html" },
+    { "name": "Trolley Duffles", "link": "trolley-duffles.html" },
+    { "name": "Weekend Duffles", "link": "weekend-duffles.html" },
+    { "name": "Sports Duffles", "link": "sports-duffles.html" },
+    { "name": "Zipper Duffles", "link": "zipper-duffles.html" }
+  ],
+
+  "Laptop Bags": [
+    { "name": "Office Laptop Bags", "link": "office-laptop-bags.html" },
+    { "name": "Laptop Sleeves", "link": "laptop-sleeves.html" },
+    { "name": "Padded Laptop Bags", "link": "padded-laptop-bags.html" },
+    { "name": "Backpack Style", "link": "backpack-style.html" },
+    { "name": "Messenger Style", "link": "messenger-style.html" },
+    { "name": "Waterproof Bags", "link": "waterproof-bags.html" },
+    { "name": "Slim Laptop Bags", "link": "slim-laptop-bags.html" },
+    { "name": "15 Inch Bags", "link": "15-inch-bags.html" },
+    { "name": "Gaming Laptop Bags", "link": "gaming-laptop-bags.html" },
+    { "name": "Classic Laptop Bags", "link": "classic-laptop-bags.html" }
+  ],
+
+  "Clutches": [
+    { "name": "Party Clutches", "link": "party-clutches.html" },
+    { "name": "Box Clutches", "link": "box-clutches.html" },
+    { "name": "Embellished Clutches", "link": "embellished-clutches.html" },
+    { "name": "Metallic Clutches", "link": "metallic-clutches.html" },
+    { "name": "Casual Clutches", "link": "casual-clutches.html" },
+    { "name": "Envelope Clutches", "link": "envelope-clutches.html" },
+    { "name": "Textured Clutches", "link": "textured-clutches.html" },
+    { "name": "Velvet Clutches", "link": "velvet-clutches.html" },
+    { "name": "Zipper Clutches", "link": "zipper-clutches.html" },
+    { "name": "Trendy Clutches", "link": "trendy-clutches.html" }
+  ],
+
+  "Waist Bags": [
+    { "name": "Casual Waist Bags", "link": "casual-waist-bags.html" },
+    { "name": "Travel Waist Bags", "link": "travel-waist-bags.html" },
+    { "name": "Sporty Waist Bags", "link": "sporty-waist-bags.html" },
+    { "name": "Compact Waist Bags", "link": "compact-waist-bags.html" },
+    { "name": "Printed Waist Bags", "link": "printed-waist-bags.html" },
+    { "name": "Street Style Bags", "link": "street-style-bags.html" },
+    { "name": "Minimal Waist Bags", "link": "minimal-waist-bags.html" },
+    { "name": "Functional Waist Bags", "link": "functional-waist-bags.html" },
+    { "name": "Utility Waist Bags", "link": "utility-waist-bags.html" },
+    { "name": "Classic Waist Bags", "link": "classic-waist-bags.html" }
+  ],
+
+  "Messenger Bags": [
+    { "name": "Office Messenger Bags", "link": "office-messenger-bags.html" },
+    { "name": "Casual Messenger Bags", "link": "casual-messenger-bags.html" },
+    { "name": "Leather Messenger Bags", "link": "leather-messenger-bags.html" },
+    { "name": "Canvas Messenger Bags", "link": "canvas-messenger-bags.html" },
+    { "name": "Mini Messenger Bags", "link": "mini-messenger-bags.html" },
+    { "name": "Zipper Messenger Bags", "link": "zipper-messenger-bags.html" },
+    { "name": "Laptop Compatible", "link": "laptop-compatible.html" },
+    { "name": "Slim Messenger Bags", "link": "slim-messenger-bags.html" },
+    { "name": "Printed Messenger Bags", "link": "printed-messenger-bags.html" },
+    { "name": "Trendy Messenger Bags", "link": "trendy-messenger-bags.html" }
+  ],
+
+  "Belts": [
+    { "name": "Leather Belts", "link": "leather-belts.html" },
+    { "name": "Canvas Belts", "link": "canvas-belts.html" },
+    { "name": "Formal Belts", "link": "formal-belts.html" },
+    { "name": "Casual Belts", "link": "casual-belts.html" },
+    { "name": "Reversible Belts", "link": "reversible-belts.html" },
+    { "name": "Braided Belts", "link": "braided-belts.html" },
+    { "name": "Wide Belts", "link": "wide-belts.html" },
+    { "name": "Textured Belts", "link": "textured-belts.html" },
+    { "name": "Minimal Belts", "link": "minimal-belts.html" },
+    { "name": "Studded Belts", "link": "studded-belts.html" }
+  ],
+
+  "Sunglasses": [
+    { "name": "Aviator Shades", "link": "aviator-shades.html" },
+    { "name": "Round Sunglasses", "link": "round-sunglasses.html" },
+    { "name": "Square Frames", "link": "square-frames.html" },
+    { "name": "Cat Eye Shades", "link": "cat-eye-shades.html" },
+    { "name": "Polarized Shades", "link": "polarized-shades.html" },
+    { "name": "Wayfarer Style", "link": "wayfarer-style.html" },
+    { "name": "Gradient Shades", "link": "gradient-shades.html" },
+    { "name": "Oversized Frames", "link": "oversized-frames.html" },
+    { "name": "Reflective Shades", "link": "reflective-shades.html" },
+    { "name": "Sport Sunglasses", "link": "sport-sunglasses.html" }
+  ],
+
+  "Watches": [
+    { "name": "Analog Watches", "link": "analog-watches.html" },
+    { "name": "Digital Watches", "link": "digital-watches.html" },
+    { "name": "Chronograph Watches", "link": "chronograph-watches.html" },
+    { "name": "Smart Watches", "link": "smart-watches.html" },
+    { "name": "Casual Watches", "link": "casual-watches.html" },
+    { "name": "Dress Watches", "link": "dress-watches.html" },
+    { "name": "Minimal Watches", "link": "minimal-watches.html" },
+    { "name": "Luxury Watches", "link": "luxury-watches.html" },
+    { "name": "Sports Watches", "link": "sports-watches.html" },
+    { "name": "Leather Strap Watches", "link": "leather-strap-watches.html" }
+  ],
+
+  "Caps": [
+    { "name": "Baseball Caps", "link": "baseball-caps.html" },
+    { "name": "Snapback Caps", "link": "snapback-caps.html" },
+    { "name": "Printed Caps", "link": "printed-caps.html" },
+    { "name": "Plain Caps", "link": "plain-caps.html" },
+    { "name": "Mesh Caps", "link": "mesh-caps.html" },
+    { "name": "Adjustable Caps", "link": "adjustable-caps.html" },
+    { "name": "Flat Caps", "link": "flat-caps.html" },
+    { "name": "Curved Caps", "link": "curved-caps.html" },
+    { "name": "Embroidered Caps", "link": "embroidered-caps.html" },
+    { "name": "Trendy Caps", "link": "trendy-caps.html" }
+  ],
+  "Kajal": [
+    { "name": "Black Kajal", "link": "black-kajal.html" },
+    { "name": "Smudge-Proof Kajal", "link": "smudge-proof-kajal.html" },
+    { "name": "Waterproof Kajal", "link": "waterproof-kajal.html" },
+    { "name": "Twist-Up Kajal", "link": "twist-up-kajal.html" },
+    { "name": "Gel Kajal", "link": "gel-kajal.html" },
+    { "name": "Colored Kajal", "link": "colored-kajal.html" },
+    { "name": "Long-Lasting Kajal", "link": "long-lasting-kajal.html" },
+    { "name": "Herbal Kajal", "link": "herbal-kajal.html" },
+    { "name": "Matte Kajal", "link": "matte-kajal.html" },
+    { "name": "Glossy Kajal", "link": "glossy-kajal.html" }
+  ],
+
+  "Perfume": [
+    { "name": "Floral Perfume", "link": "floral-perfume.html" },
+    { "name": "Woody Perfume", "link": "woody-perfume.html" },
+    { "name": "Citrus Perfume", "link": "citrus-perfume.html" },
+    { "name": "Spicy Perfume", "link": "spicy-perfume.html" },
+    { "name": "Oriental Perfume", "link": "oriental-perfume.html" },
+    { "name": "Musk Perfume", "link": "musk-perfume.html" },
+    { "name": "Unisex Perfume", "link": "unisex-perfume.html" },
+    { "name": "Eau De Parfum", "link": "eau-de-parfum.html" },
+    { "name": "Eau De Toilette", "link": "eau-de-toilette.html" },
+    { "name": "Mini Perfume", "link": "mini-perfume.html" }
+  ],
+
+  "Nail Polish": [
+    { "name": "Matte Polish", "link": "matte-polish.html" },
+    { "name": "Glossy Polish", "link": "glossy-polish.html" },
+    { "name": "Gel Polish", "link": "gel-polish.html" },
+    { "name": "Quick Dry Polish", "link": "quick-dry-polish.html" },
+    { "name": "Glitter Polish", "link": "glitter-polish.html" },
+    { "name": "Nude Shades", "link": "nude-shades.html" },
+    { "name": "Bright Colors", "link": "bright-colors.html" },
+    { "name": "Pastel Shades", "link": "pastel-shades.html" },
+    { "name": "Top Coat", "link": "top-coat.html" },
+    { "name": "Base Coat", "link": "base-coat.html" }
+  ],
+
+  "Hair Oil": [
+    { "name": "Coconut Oil", "link": "coconut-oil.html" },
+    { "name": "Almond Oil", "link": "almond-oil.html" },
+    { "name": "Castor Oil", "link": "castor-oil.html" },
+    { "name": "Onion Oil", "link": "onion-oil.html" },
+    { "name": "Amla Oil", "link": "amla-oil.html" },
+    { "name": "Herbal Oil", "link": "herbal-oil.html" },
+    { "name": "Argan Oil", "link": "argan-oil.html" },
+    { "name": "Hair Growth Oil", "link": "hair-growth-oil.html" },
+    { "name": "Non-Sticky Oil", "link": "non-sticky-oil.html" },
+    { "name": "Ayurvedic Oil", "link": "ayurvedic-oil.html" }
+  ],
+
+  "Face Wash": [
+    { "name": "Oil Control Wash", "link": "oil-control-wash.html" },
+    { "name": "Foaming Wash", "link": "foaming-wash.html" },
+    { "name": "Gel Wash", "link": "gel-wash.html" },
+    { "name": "Brightening Wash", "link": "brightening-wash.html" },
+    { "name": "Ayurvedic Wash", "link": "ayurvedic-wash.html" },
+    { "name": "Acne Control Wash", "link": "acne-control-wash.html" },
+    { "name": "Charcoal Wash", "link": "charcoal-wash.html" },
+    { "name": "Neem Wash", "link": "neem-wash.html" },
+    { "name": "Vitamin C Wash", "link": "vitamin-c-wash.html" },
+    { "name": "Hydrating Wash", "link": "hydrating-wash.html" }
+  ],
+
+  "Shampoo": [
+    { "name": "Anti Dandruff Shampoo", "link": "anti-dandruff-shampoo.html" },
+    { "name": "Hair Fall Shampoo", "link": "hair-fall-shampoo.html" },
+    { "name": "Smoothening Shampoo", "link": "smoothening-shampoo.html" },
+    { "name": "Volume Shampoo", "link": "volume-shampoo.html" },
+    { "name": "Dry Hair Shampoo", "link": "dry-hair-shampoo.html" },
+    { "name": "Color Protect Shampoo", "link": "color-protect-shampoo.html" },
+    { "name": "Herbal Shampoo", "link": "herbal-shampoo.html" },
+    { "name": "Scalp Care Shampoo", "link": "scalp-care-shampoo.html" },
+    { "name": "Clarifying Shampoo", "link": "clarifying-shampoo.html" },
+    { "name": "Daily Use Shampoo", "link": "daily-use-shampoo.html" }
+  ],
+
+  "Conditioner": [
+    { "name": "Repair Conditioner", "link": "repair-conditioner.html" },
+    { "name": "Smoothening Conditioner", "link": "smoothening-conditioner.html" },
+    { "name": "Moisturizing Conditioner", "link": "moisturizing-conditioner.html" },
+    { "name": "Volumizing Conditioner", "link": "volumizing-conditioner.html" },
+    { "name": "Keratin Conditioner", "link": "keratin-conditioner.html" },
+    { "name": "Color Safe Conditioner", "link": "color-safe-conditioner.html" },
+    { "name": "Frizz Control Conditioner", "link": "frizz-control-conditioner.html" },
+    { "name": "Natural Conditioner", "link": "natural-conditioner.html" },
+    { "name": "Leave-In Conditioner", "link": "leave-in-conditioner.html" },
+    { "name": "Deep Conditioner", "link": "deep-conditioner.html" }
+  ],
+
+  "Moisturizer": [
+    { "name": "Oil-Free Moisturizer", "link": "oil-free-moisturizer.html" },
+    { "name": "Night Cream", "link": "night-cream.html" },
+    { "name": "Day Cream", "link": "day-cream.html" },
+    { "name": "Gel Moisturizer", "link": "gel-moisturizer.html" },
+    { "name": "Cream-Based Moisturizer", "link": "cream-based-moisturizer.html" },
+    { "name": "SPF Moisturizer", "link": "spf-moisturizer.html" },
+    { "name": "Hydrating Gel", "link": "hydrating-gel.html" },
+    { "name": "Vitamin C Cream", "link": "vitamin-c-cream.html" },
+    { "name": "Brightening Cream", "link": "brightening-cream.html" },
+    { "name": "Matte Moisturizer", "link": "matte-moisturizer.html" }
+  ],
+
+  "Sunscreen": [
+    { "name": "SPF 30", "link": "spf-30.html" },
+    { "name": "SPF 50", "link": "spf-50.html" },
+    { "name": "Gel Sunscreen", "link": "gel-sunscreen.html" },
+    { "name": "Cream Sunscreen", "link": "cream-sunscreen.html" },
+    { "name": "Tinted Sunscreen", "link": "tinted-sunscreen.html" },
+    { "name": "Matte Sunscreen", "link": "matte-sunscreen.html" },
+    { "name": "Waterproof Sunscreen", "link": "waterproof-sunscreen.html" },
+    { "name": "Spray Sunscreen", "link": "spray-sunscreen.html" },
+    { "name": "Mineral Sunscreen", "link": "mineral-sunscreen.html" },
+    { "name": "Ayurvedic Sunscreen", "link": "ayurvedic-sunscreen.html" }
+  ],
+
+  "Makeup Remover": [
+    { "name": "Micellar Water", "link": "micellar-water.html" },
+    { "name": "Oil Remover", "link": "oil-remover.html" },
+    { "name": "Balm Remover", "link": "balm-remover.html" },
+    { "name": "Cleansing Wipes", "link": "cleansing-wipes.html" },
+    { "name": "Cream Remover", "link": "cream-remover.html" },
+    { "name": "Foam Remover", "link": "foam-remover.html" },
+    { "name": "Waterproof Remover", "link": "waterproof-remover.html" },
+    { "name": "Gentle Remover", "link": "gentle-remover.html" },
+    { "name": "Gel Remover", "link": "gel-remover.html" },
+    { "name": "Makeup Remover", "link": "two-phase-remover.html" }
+  ],
+
+  "Face Serum": [
+    { "name": "Vitamin C Serum", "link": "vitamin-c-serum.html" },
+    { "name": "Hyaluronic Serum", "link": "hyaluronic-serum.html" },
+    { "name": "Anti-Ageing Serum", "link": "anti-ageing-serum.html" },
+    { "name": "Brightening Serum", "link": "brightening-serum.html" },
+    { "name": "Acne Serum", "link": "acne-serum.html" },
+    { "name": "Night Repair Serum", "link": "night-repair-serum.html" },
+    { "name": "Oil Control Serum", "link": "oil-control-serum.html" },
+    { "name": "Glow Serum", "link": "glow-serum.html" },
+    { "name": "Pore Tightening Serum", "link": "pore-tightening-serum.html" },
+    { "name": "Collagen Serum", "link": "collagen-serum.html" }
+  ],
+
+  "Face Mask": [
+    { "name": "Clay Mask", "link": "clay-mask.html" },
+    { "name": "Sheet Mask", "link": "sheet-mask.html" },
+    { "name": "Charcoal Mask", "link": "charcoal-mask.html" },
+    { "name": "Peel-Off Mask", "link": "peel-off-mask.html" },
+    { "name": "Hydrating Mask", "link": "hydrating-mask.html" },
+    { "name": "Overnight Mask", "link": "overnight-mask.html" },
+    { "name": "Glow Mask", "link": "glow-mask.html" },
+    { "name": "Detox Mask", "link": "detox-mask.html" },
+    { "name": "Anti-Ageing Mask", "link": "anti-ageing-mask.html" },
+    { "name": "Brightening Mask", "link": "brightening-mask.html" }
+  ],
+
+  "Beard Oil": [
+    { "name": "Growth Beard Oil", "link": "growth-beard-oil.html" },
+    { "name": "Softening Beard Oil", "link": "softening-beard-oil.html" },
+    { "name": "Fragrant Beard Oil", "link": "fragrant-beard-oil.html" },
+    { "name": "Organic Beard Oil", "link": "organic-beard-oil.html" },
+    { "name": "Matte Finish Oil", "link": "matte-finish-oil.html" },
+    { "name": "Non-Greasy Oil", "link": "non-greasy-oil.html" },
+    { "name": "Nourishing Beard Oil", "link": "nourishing-beard-oil.html" },
+    { "name": "Vitamin E Oil", "link": "vitamin-e-oil.html" },
+    { "name": "Cooling Beard Oil", "link": "cooling-beard-oil.html" },
+    { "name": "Daily Use Oil", "link": "daily-use-oil.html" }
+  ]
+}
